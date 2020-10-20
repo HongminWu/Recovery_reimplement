@@ -30,6 +30,7 @@ from region import Region_Cluster
 from scipy.special import softmax
 from scipy.stats import multivariate_normal
 import matplotlib.pyplot as plt
+import ipdb
 
 # device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 # device = torch.device("cpu")
